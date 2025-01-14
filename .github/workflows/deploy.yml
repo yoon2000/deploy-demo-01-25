@@ -83,4 +83,4 @@ jobs:
             mkdir -p /dockerProjects/blog
             curl -o /dockerProjects/blog/zero_downtime_deploy.py https://raw.githubusercontent.com/${깃허브-아이디}/${깃허브-리포지터리명}/main/infraScript/zero_downtime_deploy.py
             chmod +x /dockerProjects/blog/zero_downtime_deploy.py
-            /dockerProjects/blog/zero_downtime_deploy.py
+            ./dockerProjects/blog/zero_downtime_deploy.py
